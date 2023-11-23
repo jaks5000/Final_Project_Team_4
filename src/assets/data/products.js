@@ -2,19 +2,40 @@ import productImg01 from "../images/double-sofa-01.jpg";
 import productImg02 from "../images/double-sofa-02.jpg";
 import productImg03 from "../images/double-sofa-03.jpg";
 import productImg20 from "../images/double-sofa-04.jpg";
-// import productImg33 from "../images/double-sofa-04.jpg";
 
 import productImg04 from "../images/single-sofa-01.jpg";
 import productImg05 from "../images/single-sofa-02.jpg";
 import productImg06 from "../images/single-sofa-03.jpg";
-import productImg007 from "../images/single-sofa-04.png";
+import productImg007 from "../images/single-sofa-04.jpg";
 
 import productImg07 from "../images/arm-chair-01.jpg";
 import productImg08 from "../images/arm-chair-02.jpg";
 import productImg09 from "../images/arm-chair-03.jpg";
-import productImg10 from "../images/arm-chair-01.jpg";
+import productImg009 from "../images/arm-chair-04.jpg";
 
+import productImg10 from "../images/table-01.jpg";
+import productImg11 from "../images/table-02.jpg";
+import productImg12 from "../images/table-03.jpg";
+import productImg13 from "../images/table-04.jpg";
 
+import productImg14 from "../images/bed-01.jpg";
+import productImg15 from "../images/bed-02.jpg";
+import productImg16 from "../images/bed-03.jpg";
+import productImg17 from "../images/bed-04.jpg";
+import productImg18 from "../images/bed-05.jpg";
+import productImg19 from "../images/bed-06.jpg";
+
+import productImg21 from "../images/living-room-01.jpg";
+import productImg22 from "../images/living-room-02.jpg";
+import productImg23 from "../images/living-room-03.jpg";
+import productImg24 from "../images/living-room-04.jpg";
+import productImg25 from "../images/living-room-05.jpg";
+import productImg26 from "../images/living-room-06.jpg";
+
+import productImg27 from "../images/tv-01.jpg";
+import productImg28 from "../images/tv-02.jpg";
+import productImg29 from "../images/tv-03.jpg";
+import productImg30 from "../images/tv-04.jpg";
 
 const products = [
   {
@@ -105,32 +126,10 @@ const products = [
     avgRating: 4.7,
   },
 
-  // {
-  //   id: "26",
-  //   productName: "Rivet Bigelow Modern ",
-  //   imgUrl: productImg33,
-  //   category: "sofa",
-  //   price: 253,
-  //   shortDesc:
-  //     "Upgrade your home with the Rivet Bigelow Modern sofa. A perfect blend of style and comfort for your living space.",
-  //   description:
-  //     "Transform your living room into a stylish oasis with the Rivet Bigelow Modern sofa. This sofa boasts a contemporary design with clean lines and premium upholstery. The high-density foam cushions provide optimal comfort, making it an ideal choice for relaxation. Elevate the look of your home with this chic and comfortable sofa.",
-  //   reviews: [
-  //     {
-  //       rating: 4.8,
-  //       text: "The Rivet Bigelow Modern sofa exceeded my expectations. It's not only beautiful but also incredibly comfortable. Highly recommended!",
-  //     },
-  //     {
-  //       rating: 4.8,
-  //       text: "I am in love with the Rivet Bigelow Modern sofa. It's the perfect addition to my living room. The quality is outstanding.",
-  //     },
-  //   ],
-  //   avgRating: 4.7,
-  // },
-
   {
     id: "04",
     productName: "Fllufy Sheep Sofa",
+    disc: 40,
     imgUrl: productImg04,
     category: "sofa",
     price: 163,
@@ -179,6 +178,29 @@ const products = [
     productName: "Mid-Century Modern Loveseat",
     imgUrl: productImg06,
     category: "sofa",
+    price: 289,
+    shortDesc:
+      "Add a touch of mid-century charm with the Modern Loveseat. Stylish and comfortable for your living space.",
+    description:
+      "Bring retro flair to your living room with the Mid-Century Modern Loveseat. This loveseat combines style and comfort, featuring a sleek design with classic details. The high-density foam cushions provide excellent support, making it an ideal choice for relaxation. Elevate your home decor with the charm of mid-century modern design.",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "The Mid-Century Modern Loveseat is a statement piece in my living room. It's not only stylish but also surprisingly comfortable. I'm very happy with my purchase.",
+      },
+      {
+        rating: 4.7,
+        text: "I love the retro vibes of the Mid-Century Modern Loveseat. It's a perfect addition to my home, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+  {
+    id: "007",
+    productName: "Mid-Century Modern Loveseat",
+    imgUrl: productImg007,
+    category: "chair",
+    disc: 25,
     price: 289,
     shortDesc:
       "Add a touch of mid-century charm with the Modern Loveseat. Stylish and comfortable for your living space.",
@@ -264,6 +286,469 @@ const products = [
       },
     ],
     avgRating: 4.8,
+  },
+  {
+    id: "009",
+    productName: "Convertible Sectional chair",
+    imgUrl: productImg009,
+    category: "chair",
+    price: 351,
+    shortDesc:
+      "Maximize your living space with the Convertible Sectional Sofa. Stylish, versatile, and comfortable.",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.9,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.8,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+
+  {
+    id: "10",
+    productName: "Coffe table",
+    imgUrl: productImg10,
+    category: "table",
+    price: 255,
+    shortDesc: "Black and brown metal coffee table - 110 x 60 x 46 cm",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "11",
+    productName: "Coffe table",
+    imgUrl: productImg11,
+    category: "table",
+    price: 255,
+    shortDesc: "Coffee table 100 x 50 x 50 cm - white and brown",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "12",
+    productName: "Center table",
+    imgUrl: productImg12,
+    category: "table",
+    disc: 60,
+    price: 255,
+    shortDesc: "Center table 42 x 55 x 110 cm - brown - TV.ZONE.99814",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "13",
+    productName: "Wooden center table",
+    imgUrl: productImg13,
+    disc: 40,
+    category: "table",
+    price: 255,
+    shortDesc: "Wooden center table with brown and gray service tables - CT61",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+
+  {
+    id: "14",
+    productName: "wooden bed",
+    imgUrl: productImg14,
+    category: "bed",
+    price: 255,
+    shortDesc:
+      "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "15",
+    productName: "wooden bed",
+    imgUrl: productImg15,
+    category: "bed",
+    price: 255,
+    shortDesc:
+      "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "16",
+    productName: "wooden bed",
+    imgUrl: productImg16,
+    category: "bed",
+    price: 285,
+    shortDesc:
+      "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "17",
+    productName: "wooden bed",
+    imgUrl: productImg17,
+    category: "bed",
+    price: 235,
+    shortDesc:
+      "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "18",
+    productName: "wooden bed",
+    imgUrl: productImg18,
+    category: "bed",
+    price: 235,
+    shortDesc:
+      "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "19",
+    productName: "wooden bed",
+    imgUrl: productImg19,
+    category: "bed",
+    price: 190,
+    shortDesc:
+      "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "21",
+    productName: "Living-room",
+    imgUrl: productImg21,
+    category: "living-room",
+    disc: 50,
+    price: 190,
+    shortDesc:
+      "Two-piece corner sofa and pouf made of Swedish wood and linen - gray",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "22",
+    productName: "Living-room",
+    imgUrl: productImg22,
+    category: "living-room",
+    disc: 30,
+    price: 190,
+    shortDesc:
+      "Two-piece corner sofa and pouf made of Swedish wood and linen - gray",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "23",
+    productName: "Living-room",
+    imgUrl: productImg23,
+    category: "living-room",
+    price: 190,
+    shortDesc:
+      "Two-piece corner sofa and pouf made of Swedish wood and linen - gray",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "24",
+    productName: "Living-room",
+    imgUrl: productImg24,
+    category: "living-room",
+    price: 190,
+    shortDesc:
+      "Two-piece corner sofa and pouf made of Swedish wood and linen - gray",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "25",
+    productName: "Living-room",
+    imgUrl: productImg25,
+    category: "living-room",
+    price: 190,
+    shortDesc:
+      "Two-piece corner sofa and pouf made of Swedish wood and linen - gray",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "26",
+    productName: "Living-room",
+    imgUrl: productImg26,
+    category: "living-room",
+    price: 190,
+    shortDesc:
+      "Two-piece corner sofa and pouf made of Swedish wood and linen - gray",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+
+  {
+    id: "27",
+    productName: "TV table",
+    imgUrl: productImg27,
+    category: "TV table",
+    disc: 15,
+    price: 150,
+    shortDesc: "Two-piece TV room set made of black and beige MDF wood",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "28",
+    productName: "TV table",
+    imgUrl: productImg28,
+    category: "TV table",
+    disc: 45,
+    price: 170,
+    shortDesc: "Two-piece TV room set made of black and beige MDF wood",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "29",
+    productName: "TV table",
+    imgUrl: productImg29,
+    category: "TV table",
+    price: 190,
+    shortDesc: "Two-piece TV room set made of black and beige MDF wood",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
+  },
+  {
+    id: "30",
+    productName: "TV table",
+    imgUrl: productImg30,
+    category: "TV table",
+    price: 120,
+    shortDesc: "Two-piece TV room set made of black and beige MDF wood",
+    description:
+      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+    reviews: [
+      {
+        rating: 4.4,
+        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+      },
+      {
+        rating: 4.2,
+        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+      },
+    ],
+    avgRating: 4.4,
   },
 ];
 

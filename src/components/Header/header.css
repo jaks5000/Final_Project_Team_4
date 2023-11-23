@@ -1,11 +1,11 @@
 .header {
   width: 100%;
+  height: 70px;
   line-height: 70px;
   position: relative;
   background-color: hsl(var(--accent) / 0.5);
+
   /* margin-top: -75px; */
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-  
 }
 
 .nav__wrapper {
@@ -16,7 +16,33 @@
 }
 
 .logo {
-  width: 150px;
+  display: flex;
+  align-items: center;
+  color: black;
+
+  column-gap: 8px;
+
+  align-items: flex-end;
+}
+
+.logo img {
+  width: 40px;
+  color: var(--_hue) 30% 99% !important;
+
+  height: 40px;
+}
+
+.logo h1 {
+  color: var(--_hue) 30% 99%;
+  font-family: monospace;
+  font-size: 1.5rem;
+
+  margin: 0 !important;
+
+  /* font-weight: 700; */
+  /* color: var(--primary-color); */
+  /* color:var(--_hue) 30% 99% !important; */
+  /* color: #5c4b99; */
 }
 
 .menu {
