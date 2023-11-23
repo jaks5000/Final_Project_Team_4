@@ -101,12 +101,8 @@ const Header = () => {
         <Row>
           <div className="nav__wrapper">
             <Link to={"/"}>
-              <div className="logo">
-                <img src={logo} alt="logo"></img>
-                <h1>Modern Life</h1>
-                {/* <div>
-                  <h1>Modern Life</h1>
-                </div> */}
+              <div className="d-flex align-items-center justify-content-center logo">
+                <img src={logo} alt="logo" className="d-block w-100"></img>
               </div>
             </Link>
 
@@ -146,7 +142,6 @@ const Header = () => {
                 <i className="ri-shopping-bag-line"></i>
                 <span className="badge">{totalQuantity}</span>
               </span>
-
               <div className="profile">
                 <motion.img
                   src={currentUser ? currentUser.photoURL : userIcon}
