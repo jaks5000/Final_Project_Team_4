@@ -20,6 +20,7 @@ const ProductCard = ({ item }) => {
         productName: item.productName,
         price: item.price,
         imgUrl: item.imgUrl,
+        disc: item.disc,
       })
     );
     toast.success("Product added successfully");
@@ -31,6 +32,7 @@ const ProductCard = ({ item }) => {
         productName: item.productName,
         price: item.price,
         imgUrl: item.imgUrl,
+        disc: item.disc,
       })
     );
     toast.success("Product added to wishlist successfully");
@@ -42,6 +44,7 @@ const ProductCard = ({ item }) => {
       className="mb-2 d-flex flex-column align-items-stretch justify-content-end"
     >
       <div className="product__item">
+        {item.disc && <span className="disc">discount {item.disc}$</span>}
         <div className="product__img">
           <motion.img whileHover={{ scale: 0.9 }} src={item.imgUrl} alt="" />
         </div>

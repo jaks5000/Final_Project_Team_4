@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css";
-import logo from "../../assets/images/eco-logo.png";
 import {
   Container,
   Row,
@@ -17,9 +16,11 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="4" className="md-4" md="6">
-          <div className="d-flex align-items-center justify-content-center logo">
-                <img src={logo} alt="logo" className="d-block w-100"></img>
+            <div className="logo">
+              <div>
+                <h1 className="text-white">Modern Life</h1>
               </div>
+            </div>
             <p className="footer__text mt-4 fw-bold ">
               Your The Founder of Your Life
             </p>
@@ -93,13 +94,14 @@ const Footer = () => {
                     <i className="ri-mail-line"></i>
                   </span>
                   <p className="m-0 fs-6 ">FURNITO@hotmail.com</p>
+
                 </ListGroupItem>
               </ListGroup>
             </div>
           </Col>
 
           <Col lg="12">
-            <p className="footer__copyright text-center">
+            <p className="footer__copyright">
               ITI Team 4 {year} All rights reserved
             </p>
           </Col>

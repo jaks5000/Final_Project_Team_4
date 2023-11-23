@@ -28,30 +28,36 @@ export const Shop = () => {
       );
       setProductsData(filteredProducts);
     }
-    // if (filterValue === "mobile") {
-    //   const filteredProducts = products.filter(
-    //     (item) => item.category === "mobile"
-    //   );
-    //   setProductsData(filteredProducts);
-    // }
+    if (filterValue === "table") {
+      const filteredProducts = products.filter(
+        (item) => item.category === "table"
+      );
+      setProductsData(filteredProducts);
+    }
     if (filterValue === "chair") {
       const filteredProducts = products.filter(
         (item) => item.category === "chair"
       );
       setProductsData(filteredProducts);
     }
-    // if (filterValue === "watch") {
-    //   const filteredProducts = products.filter(
-    //     (item) => item.category === "watch"
-    //   );
-    //   setProductsData(filteredProducts);
-    // }
-    // if (filterValue === "wireless") {
-    //   const filteredProducts = products.filter(
-    //     (item) => item.category === "wireless"
-    //   );
-    //   setProductsData(filteredProducts);
-    // }
+    if (filterValue === "bed") {
+      const filteredProducts = products.filter(
+        (item) => item.category === "bed"
+      );
+      setProductsData(filteredProducts);
+    }
+    if (filterValue === "Living-room") {
+      const filteredProducts = products.filter(
+        (item) => item.category === "living-room"
+      );
+      setProductsData(filteredProducts);
+    }
+    if (filterValue === "TV table") {
+      const filteredProducts = products.filter(
+        (item) => item.category === "TV table"
+      );
+      setProductsData(filteredProducts);
+    }
   };
   const handleSearch = (e) => {
     const searchTerm = e.target.value;
@@ -71,10 +77,11 @@ export const Shop = () => {
                 <select onChange={handleFilter}>
                   <option>Filter by category</option>
                   <option value="sofa">Sofa</option>
-                  {/* <option value="mobile">Mobile</option> */}
+                  <option value="table">Table</option>
                   <option value="chair">Chair</option>
-                  {/* <option value="watch">Watch</option>
-                  <option value="wireless">Wireless</option> */}
+                  <option value="bed">Bed</option>
+                  <option value="Living-room">Living-room</option>
+                  <option value="TV table">TV table</option>
                 </select>
               </div>
             </Col>

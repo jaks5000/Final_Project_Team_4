@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "reactstrap";
 import heroImg from "../assets/images/hero-img.png";
 import { Link } from "react-router-dom";
-import  Services  from "../services/Services";
+import Services from "../services/Services";
 // import { ProductList } from "../components/UI/ProductsList";
 // import ProductsList from "../components/UI/ProductsList";
 import ProductsList from "../components/UI/ProductsList";
@@ -9,7 +9,7 @@ import Helmet from "../components/Helmet/Helmet";
 import products from "../assets/data/products";
 import { useState, useEffect } from "react";
 import counterImg from "../assets/images/counter-timer-img.png";
-import  Clock  from "../components/UI/Clock";
+import Clock from "../components/UI/Clock";
 
 import "../styles/home.css";
 
@@ -17,16 +17,13 @@ export const Home = () => {
   const [trendingProducts, setTrendingProducts] = useState([]);
   const [bestSalesProducts, setBestSalesProducts] = useState([]);
 
-
   const year = new Date().getFullYear();
   useEffect(() => {
     const filteredTrendingProducts = products.filter(
       (item) => item.category === "chair"
     );
-    const filteredBestSalesProducts = products.filter(
-      (item) => item.category === "sofa"
-    );
- 
+    const filteredBestSalesProducts = products.filter((item) => item.disc > 0);
+
     setTrendingProducts(filteredTrendingProducts);
     setBestSalesProducts(filteredBestSalesProducts);
   }, []);
@@ -60,8 +57,8 @@ export const Home = () => {
           </Row>
         </Container>
       </section>
-
       <Services />
+
       <section className="trending-products">
         <Container className="mx-auto text-center">
           <Row>
@@ -72,6 +69,7 @@ export const Home = () => {
           </Row>
         </Container>
       </section>
+
       <section className="timer__count">
         <Container className="d-flex align-items-center justify-content-center">
           <Row className="align-items-center">
