@@ -93,7 +93,8 @@ const Footer = () => {
                   <span>
                     <i className="ri-mail-line"></i>
                   </span>
-                  <p className="m-0 fs-6 fw-bold">Modern_Life@Hotmail.com</p>
+                  <p className="m-0 fs-6 ">FURNITO@hotmail.com</p>
+
                 </ListGroupItem>
               </ListGroup>
             </div>
