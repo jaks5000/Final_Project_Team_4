@@ -6,7 +6,7 @@ const CommonSection = ({title}) => {
   return (
   <section className="common__section">
     <Container className='text-center'>
-        <h1>{title}</h1>
+        <h2 className='fw-bold text-light'>{title}</h2>
     </Container>
   </section>
   );

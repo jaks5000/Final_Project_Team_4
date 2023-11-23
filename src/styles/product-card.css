@@ -2,12 +2,14 @@
   cursor: pointer;
   position: relative;
 }
-
+.product__img img{
+  height: 200px !important;
+}
 .product__info {
   background-color: hsl(var(--accent) / 0.5) !important;
   border-radius: 5px;
 }
-.product__info h3 a {
+.product__info h3 {
   font-size: 1.2rem;
   color: #fff;
   /* color: var(--primary-color); */
