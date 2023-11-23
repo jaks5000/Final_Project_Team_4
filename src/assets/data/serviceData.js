@@ -2,26 +2,26 @@ const serviceData = [
   {
     icon: "ri-truck-line",
     title: "Free Shipping",
-    subtitle: "Capped at $ 39 Per Order.",
-    bg: "#fdefe6",
+    subtitle: "at $ 39 Per Order.",
+    bg: "#a6c2de",
   },
   {
     icon: "ri-refresh-line",
     title: "Easy Returns",
     subtitle: "Shop with confidence.",
-    bg: "#ceebe9",
+    bg: "#a6c2de",
   },
   {
     icon: "ri-secure-payment-line",
     title: "Secure Payment",
     subtitle: "12 Months Installments.",
-    bg: "#e2f2b2",
+    bg: "#a6c2de",
   },
   {
     icon: "ri-exchange-dollar-line",
     title: " Back Guarantee",
     subtitle: "Shop with confidence.",
-    bg: "#d6e5fb",
+    bg: "#a6c2de",
   },
 ];
 
