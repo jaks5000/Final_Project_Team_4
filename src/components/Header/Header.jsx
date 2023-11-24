@@ -35,6 +35,10 @@ const nav__links = [
     path: "contact",
     display: "Contact Us",
   },
+  { 
+   path: "3D View",
+   display: "3D View" 
+  },
 ];
 
 const Header = () => {
