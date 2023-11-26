@@ -2,8 +2,8 @@
   cursor: pointer;
   position: relative;
 }
-.product__img img{
-  height: 200px !important;
+.product__img img {
+  height: 250px !important;
 }
 .product__info {
   background-color: hsl(var(--accent) / 0.5) !important;

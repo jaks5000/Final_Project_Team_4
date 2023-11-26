@@ -18,8 +18,8 @@ import productImg11 from "../images/table-02.jpg";
 import productImg12 from "../images/table-03.jpg";
 import productImg13 from "../images/table-04.jpg";
 
-import productImg14 from "../images/bed-01.jpg";
-import productImg15 from "../images/bed-02.jpg";
+// import productImg14 from "../images/bed-01.jpg";
+// import productImg15 from "../images/bed-02.jpg";
 import productImg16 from "../images/bed-03.jpg";
 import productImg17 from "../images/bed-04.jpg";
 import productImg18 from "../images/bed-05.jpg";
@@ -397,50 +397,50 @@ const products = [
     avgRating: 4.4,
   },
 
-  {
-    id: "14",
-    productName: "wooden bed",
-    imgUrl: productImg14,
-    category: "bed",
-    price: 255,
-    shortDesc:
-      "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
-    description:
-      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
-    reviews: [
-      {
-        rating: 4.4,
-        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
-      },
-      {
-        rating: 4.2,
-        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
-      },
-    ],
-    avgRating: 4.4,
-  },
-  {
-    id: "15",
-    productName: "wooden bed",
-    imgUrl: productImg15,
-    category: "bed",
-    price: 255,
-    shortDesc:
-      "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
-    description:
-      "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
-    reviews: [
-      {
-        rating: 4.4,
-        text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
-      },
-      {
-        rating: 4.2,
-        text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
-      },
-    ],
-    avgRating: 4.4,
-  },
+  // {
+  //   id: "14",
+  //   productName: "wooden bed",
+  //   imgUrl: productImg14,
+  //   category: "bed",
+  //   price: 255,
+  //   shortDesc:
+  //     "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
+  //   description:
+  //     "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+  //   reviews: [
+  //     {
+  //       rating: 4.4,
+  //       text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+  //     },
+  //     {
+  //       rating: 4.2,
+  //       text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+  //     },
+  //   ],
+  //   avgRating: 4.4,
+  // },
+  // {
+  //   id: "15",
+  //   productName: "wooden bed",
+  //   imgUrl: productImg15,
+  //   category: "bed",
+  //   price: 255,
+  //   shortDesc:
+  //     "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
+  //   description:
+  //     "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
+  //   reviews: [
+  //     {
+  //       rating: 4.4,
+  //       text: "The Convertible Sectional Sofa is a game-changer in my small apartment. It's not only stylish but also incredibly comfortable. I love the flexibility it offers.",
+  //     },
+  //     {
+  //       rating: 4.2,
+  //       text: "This sofa exceeded my expectations. The Convertible Sectional Sofa is a perfect addition to my living room, and the quality is outstanding.",
+  //     },
+  //   ],
+  //   avgRating: 4.4,
+  // },
   {
     id: "16",
     productName: "wooden bed",
