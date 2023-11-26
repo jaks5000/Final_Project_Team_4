@@ -23,10 +23,10 @@ const nav__links = [
     path: "shop",
     display: "Shop",
   },
-  {
-    path: "cart",
-    display: "Cart",
-  },
+  // {
+  //   path: "cart",
+  //   display: "Cart",
+  // },
   {
     path: "about",
     display: "About Us",
@@ -35,9 +35,9 @@ const nav__links = [
     path: "contact",
     display: "Contact Us",
   },
-  { 
-   path: "3D View",
-   display: "3D View" 
+  {
+    path: "3D View",
+    display: "3D View",
   },
 ];
 
