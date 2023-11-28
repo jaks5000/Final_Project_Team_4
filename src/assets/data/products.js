@@ -20,6 +20,7 @@ import productImg13 from "../images/table-04.jpg";
 
 // import productImg14 from "../images/bed-01.jpg";
 // import productImg15 from "../images/bed-02.jpg";
+
 import productImg16 from "../images/bed-03.jpg";
 import productImg17 from "../images/bed-04.jpg";
 import productImg18 from "../images/bed-05.jpg";
@@ -397,6 +398,7 @@ const products = [
     avgRating: 4.4,
   },
 
+  ///////////////////////////////////////////////
   // {
   //   id: "14",
   //   productName: "wooden bed",
@@ -441,6 +443,9 @@ const products = [
   //   ],
   //   avgRating: 4.4,
   // },
+
+  //////////////////////////////////////////////
+
   {
     id: "16",
     productName: "wooden bed",
