@@ -44,21 +44,27 @@ const ProductCard = ({ item }) => {
       className="mb-2 d-flex flex-column align-items-stretch justify-content-end"
     >
       <div className="product__item my-2">
-        {item.disc && <span className="disc">discount {item.disc}$</span>}
+        {item.disc && <span className="disc">discount {item.disc}</span>}
         <div className="product__img">
           <motion.img whileHover={{ scale: 0.9 }} src={item.imgUrl} alt="" />
         </div>
         <div className="p-2 product__info">
           <Link to={`/shop/${item.id}`}>
-            <h3 className="product__name" style={{ fontSize: item.productName.length > 20 && "1rem" , textTransform: "capitalize"  }}>
-                {item.productName}
+            <h3
+              className="product__name"
+              style={{
+                fontSize: item.productName.length > 20 && "1rem",
+                textTransform: "capitalize",
+              }}
+            >
+              {item.productName}
             </h3>
           </Link>
-            <span>{item.category}</span>
+          <span>{item.category}</span>
         </div>
 
         <div className="product__card-bottom d-flex align-items-center justify-content-between p-2">
-          <span className="price">${item.price}</span>
+          <span className="price">{item.price}</span>
           <motion.span
             className="ms-5"
             whileTap={{ scale: 1.2 }}

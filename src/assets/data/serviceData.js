@@ -2,7 +2,7 @@ const serviceData = [
   {
     icon: "ri-truck-line",
     title: "Free Shipping",
-    subtitle: "at $ 39 Per Order.",
+    subtitle: "at  39 Per Order.",
     bg: "#a6c2de",
   },
   {

@@ -44,7 +44,7 @@ const products = [
     productName: "Stone and Beam Westview ",
     imgUrl: productImg01,
     category: "sofa",
-    price: 193,
+    price: 650,
     shortDesc:
       "A stylish and comfortable sofa for your living room. The Stone and Beam Westview sofa features a modern design with high-quality materials.",
     description:
@@ -63,7 +63,7 @@ const products = [
     productName: "Rivet Bigelow Modern ",
     imgUrl: productImg02,
     category: "sofa",
-    price: 253,
+    price: 700,
     shortDesc:
       "Upgrade your home with the Rivet Bigelow Modern sofa. A perfect blend of style and comfort for your living space.",
     description:
@@ -86,7 +86,7 @@ const products = [
     productName: "Amazon Brand Modern Sofa",
     imgUrl: productImg03,
     category: "sofa",
-    price: 173,
+    price: 900,
     shortDesc:
       "Create a cozy living space with the Amazon Brand Modern Sofa. Affordable luxury for your home.",
     description:
@@ -109,7 +109,7 @@ const products = [
     productName: "Amazon Brand Modern Sofa",
     imgUrl: productImg20,
     category: "sofa",
-    price: 173,
+    price: 699,
     shortDesc:
       "Create a cozy living space with the Amazon Brand Modern Sofa. Affordable luxury for your home.",
     description:
@@ -133,7 +133,7 @@ const products = [
     disc: 40,
     imgUrl: productImg04,
     category: "sofa",
-    price: 163,
+    price: 878,
     shortDesc:
       "Experience ultimate coziness with the Fllufy Sheep Sofa. A perfect blend of comfort and style for your home.",
     description:
@@ -156,7 +156,7 @@ const products = [
     productName: "Faux Velvet Sofa",
     imgUrl: productImg05,
     category: "sofa",
-    price: 163,
+    price: 896,
     shortDesc:
       "Elevate your living room with the luxurious Faux Velvet Sofa. A perfect combination of style and comfort.",
     description:
@@ -179,7 +179,7 @@ const products = [
     productName: "Mid-Century Modern Loveseat",
     imgUrl: productImg06,
     category: "sofa",
-    price: 289,
+    price: 999,
     shortDesc:
       "Add a touch of mid-century charm with the Modern Loveseat. Stylish and comfortable for your living space.",
     description:
@@ -196,13 +196,14 @@ const products = [
     ],
     avgRating: 4.7,
   },
+
   {
     id: "007",
     productName: "Mid-Century Modern Loveseat",
     imgUrl: productImg007,
     category: "chair",
     disc: 25,
-    price: 289,
+    price: 1000,
     shortDesc:
       "Add a touch of mid-century charm with the Modern Loveseat. Stylish and comfortable for your living space.",
     description:
@@ -225,7 +226,7 @@ const products = [
     productName: "Leather Recliner",
     imgUrl: productImg07,
     category: "chair",
-    price: 399,
+    price: 1120,
     shortDesc:
       "Experience luxury with the Leather Recliner. A perfect combination of style, comfort, and functionality.",
     description:
@@ -248,7 +249,7 @@ const products = [
     productName: "Velvet Chaise Lounge",
     imgUrl: productImg08,
     category: "chair",
-    price: 329,
+    price: 999,
     shortDesc:
       "Luxuriate in the Velvet Chaise Lounge. An elegant and comfortable addition to your living room or bedroom.",
     description:
@@ -271,7 +272,7 @@ const products = [
     productName: "Convertible Sectional Sofa",
     imgUrl: productImg09,
     category: "chair",
-    price: 499,
+    price: 1200,
     shortDesc:
       "Maximize your living space with the Convertible Sectional Sofa. Stylish, versatile, and comfortable.",
     description:
@@ -288,12 +289,13 @@ const products = [
     ],
     avgRating: 4.8,
   },
+
   {
     id: "009",
     productName: "Convertible Sectional chair",
     imgUrl: productImg009,
     category: "chair",
-    price: 351,
+    price: 888,
     shortDesc:
       "Maximize your living space with the Convertible Sectional Sofa. Stylish, versatile, and comfortable.",
     description:
@@ -316,7 +318,7 @@ const products = [
     productName: "Coffe table",
     imgUrl: productImg10,
     category: "table",
-    price: 255,
+    price: 777,
     shortDesc: "Black and brown metal coffee table - 110 x 60 x 46 cm",
     description:
       "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
@@ -332,12 +334,13 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "11",
     productName: "Coffe table",
     imgUrl: productImg11,
     category: "table",
-    price: 255,
+    price: 665,
     shortDesc: "Coffee table 100 x 50 x 50 cm - white and brown",
     description:
       "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
@@ -353,13 +356,14 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "12",
     productName: "Center table",
     imgUrl: productImg12,
     category: "table",
     disc: 60,
-    price: 255,
+    price: 1300,
     shortDesc: "Center table 42 x 55 x 110 cm - brown - TV.ZONE.99814",
     description:
       "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
@@ -375,13 +379,14 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "13",
     productName: "Wooden center table",
     imgUrl: productImg13,
     disc: 40,
     category: "table",
-    price: 255,
+    price: 888,
     shortDesc: "Wooden center table with brown and gray service tables - CT61",
     description:
       "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
@@ -451,7 +456,7 @@ const products = [
     productName: "wooden bed",
     imgUrl: productImg16,
     category: "bed",
-    price: 285,
+    price: 777,
     shortDesc:
       "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
     description:
@@ -468,12 +473,13 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "17",
     productName: "wooden bed",
     imgUrl: productImg17,
     category: "bed",
-    price: 235,
+    price: 2000,
     shortDesc:
       "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
     description:
@@ -490,12 +496,13 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "18",
     productName: "wooden bed",
     imgUrl: productImg18,
     category: "bed",
-    price: 235,
+    price: 3000,
     shortDesc:
       "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
     description:
@@ -512,12 +519,13 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "19",
     productName: "wooden bed",
     imgUrl: productImg19,
     category: "bed",
-    price: 190,
+    price: 3500,
     shortDesc:
       "Single bed made of Swedish wood and blue linen - 200 x 120 x 140 cm",
     description:
@@ -534,13 +542,14 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "21",
     productName: "Living-room",
     imgUrl: productImg21,
     category: "living-room",
     disc: 50,
-    price: 190,
+    price: 500,
     shortDesc:
       "Two-piece corner sofa and pouf made of Swedish wood and linen - gray",
     description:
@@ -557,13 +566,14 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "22",
     productName: "Living-room",
     imgUrl: productImg22,
     category: "living-room",
     disc: 30,
-    price: 190,
+    price: 6000,
     shortDesc:
       "Two-piece corner sofa and pouf made of Swedish wood and linen - gray",
     description:
@@ -580,12 +590,13 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "23",
     productName: "Living-room",
     imgUrl: productImg23,
     category: "living-room",
-    price: 190,
+    price: 7000,
     shortDesc:
       "Two-piece corner sofa and pouf made of Swedish wood and linen - gray",
     description:
@@ -602,12 +613,13 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "24",
     productName: "Living-room",
     imgUrl: productImg24,
     category: "living-room",
-    price: 190,
+    price: 8000,
     shortDesc:
       "Two-piece corner sofa and pouf made of Swedish wood and linen - gray",
     description:
@@ -624,12 +636,13 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "25",
     productName: "Living-room",
     imgUrl: productImg25,
     category: "living-room",
-    price: 190,
+    price: 7500,
     shortDesc:
       "Two-piece corner sofa and pouf made of Swedish wood and linen - gray",
     description:
@@ -646,12 +659,13 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "26",
     productName: "Living-room",
     imgUrl: productImg26,
     category: "living-room",
-    price: 190,
+    price: 6500,
     shortDesc:
       "Two-piece corner sofa and pouf made of Swedish wood and linen - gray",
     description:
@@ -675,7 +689,7 @@ const products = [
     imgUrl: productImg27,
     category: "TV table",
     disc: 15,
-    price: 150,
+    price: 5500,
     shortDesc: "Two-piece TV room set made of black and beige MDF wood",
     description:
       "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
@@ -691,13 +705,14 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "28",
     productName: "TV table",
     imgUrl: productImg28,
     category: "TV table",
     disc: 45,
-    price: 170,
+    price: 6800,
     shortDesc: "Two-piece TV room set made of black and beige MDF wood",
     description:
       "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
@@ -713,12 +728,13 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "29",
     productName: "TV table",
     imgUrl: productImg29,
     category: "TV table",
-    price: 190,
+    price: 4000,
     shortDesc: "Two-piece TV room set made of black and beige MDF wood",
     description:
       "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",
@@ -734,12 +750,13 @@ const products = [
     ],
     avgRating: 4.4,
   },
+
   {
     id: "30",
     productName: "TV table",
     imgUrl: productImg30,
     category: "TV table",
-    price: 120,
+    price: 3000,
     shortDesc: "Two-piece TV room set made of black and beige MDF wood",
     description:
       "Optimize your living room with the Convertible Sectional Sofa. This versatile sofa can be configured to suit your space and seating needs. The premium upholstery and sturdy construction ensure durability, while the plush cushions provide a cozy seating experience. Make the most of your living space with the functionality and style of the Convertible Sectional Sofa.",

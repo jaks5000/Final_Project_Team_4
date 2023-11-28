@@ -111,7 +111,7 @@ export const ProductDetails = () => {
                 </div>
 
                 <div className="d-flex align-items-center gap-5">
-                  <span className="fw-bold fs-5">${price}</span>
+                  <span className="fw-bold fs-5">{price}</span>
                   <span>category: {category}</span>
                 </div>
 
