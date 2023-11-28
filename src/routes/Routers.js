@@ -17,7 +17,7 @@ import ProtectedRoute from "./ProtectedRoute";
 import Wishlist from "../pages/Wishlist";
 import Contact from "../pages/Contact";
 import About from "../pages/About";
-import  View3D  from "../pages/View3D";
+import View3D from "../pages/View3D";
 const Routers = () => {
   return (
     <Routes>
@@ -29,7 +29,7 @@ const Routers = () => {
       <Route path="wishlist" element={<Wishlist />} />
       <Route path="contact" element={<Contact />} />
       <Route path="about" element={<About />} />
-      <Route path="view3D" element={<View3D />} />
+      <Route path="view3d" element={<View3D />} />
 
       <Route path="/*" element={<ProtectedRoute />}>
         <Route path="checkout" element={<Checkout />} />
