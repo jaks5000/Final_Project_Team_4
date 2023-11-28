@@ -44,7 +44,7 @@ const Cart = () => {
               <div>
                 <h6 className="d-flex align-items-center justify-content-between">
                   Subtotal
-                  <span className="fs-4 fw-bold">${totalAmount}</span>
+                  <span className="fs-4 fw-bold">{totalAmount}</span>
                 </h6>
                 <p className="cartFonts fs-6 mt-2">
                   taxes an shipping will calculate in checkout
@@ -77,7 +77,7 @@ const Tr = ({ item }) => {
         <img src={item.imgUrl} alt=""></img>
       </td>
       <td>{item.productName}</td>
-      <td>${item.price}</td>
+      <td>{item.price}</td>
       <td>{item.quantity}px</td>
       <td>
         <motion.i

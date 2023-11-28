@@ -43,10 +43,11 @@ const Wishlist = () => {
                           <img
                             src={item.imgUrl}
                             className="object-fit-contain"
+                            alt=""
                           />
                         </td>
                         <td>{item.productName}</td>
-                        <td>${item.price}</td>
+                        <td>{item.price}</td>
                         <td>
                           <motion.i
                             whileTap={{ scale: 1.2 }}
